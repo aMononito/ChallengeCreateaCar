@@ -3,9 +3,8 @@ import Motorbike from "../classes/Motorbike.js";
 // define the interface
 interface canWheelie {
     // declare the properties
-    motorbike: Motorbike;
+    canWheelie: boolean;
     // wheelie method takes a motorbike as an argument
-    wheelie(vehicle: Motorbike): void;
     // declare the methods
     wheelie(): void;
 }
